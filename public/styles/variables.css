@@ -1,0 +1,12 @@
+:root {
+    --cor-fundo: linear-gradient(
+    45deg, 
+    #000000 0%, 
+    #323232 50%,
+    #000000 100%
+    );
+}
+
+body {
+    background: var(--cor-fundo);
+}
