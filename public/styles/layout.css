@@ -1,0 +1,48 @@
+
+ /*? Header  */     
+
+ header {
+    height: 100vh; /* Faz o header ocupar toda a altura da tela */
+    border: red 1px solid;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-apresentacao {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    text-align: center;
+   
+}
+
+.header-apresentacao h1 {
+    font-size: 3rem;
+    margin-bottom: 10px; /* Separação entre título e parágrafo */
+}
+
+.header-apresentacao p {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.header-foto {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-foto img {
+    margin-bottom: 10px;
+}
+
+.header-foto figcaption {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
