@@ -10,3 +10,19 @@
 body {
     background: var(--cor-fundo);
 }
+
+
+/* Header */
+
+.header-apresentacao h1 {
+    font-size: 5rem;
+}
+
+.header-apresentacao p {
+    font-size: 3rem;
+}
+
+.header-foto figcaption {
+    font-size: 3rem;
+}
+

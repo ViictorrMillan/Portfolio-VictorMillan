@@ -1,3 +1,11 @@
+/** Espaco entre os elementos */
+
+.espaco {
+    border: rgb(93, 238, 9) 1px solid;
+    padding: 2rem;
+}
+
+
 
  /*? Header  */     
 
@@ -6,7 +14,7 @@
     border: red 1px solid;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -17,17 +25,19 @@
     align-items: center; /* Centraliza os itens horizontalmente */
     justify-content: center; /* Centraliza os itens verticalmente */
     text-align: center;
-   
 }
 
 .header-apresentacao h1 {
-    font-size: 3rem;
     margin-bottom: 10px; /* Separação entre título e parágrafo */
 }
 
 .header-apresentacao p {
-    font-size: 1.5rem;
     margin-top: 0;
+}
+
+#header-texto-dinamico {
+    padding: 0 10px; /* Adiciona espaçamento interno */
+    text-align: center;
 }
 
 .header-foto {
@@ -39,10 +49,12 @@
 }
 
 .header-foto img {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 40rem;
+    height: 40rem;
 }
 
 .header-foto figcaption {
-    font-size: 1.5rem;
     margin-top: 0;
 }
