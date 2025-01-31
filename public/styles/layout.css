@@ -25,10 +25,12 @@
     align-items: center; /* Centraliza os itens horizontalmente */
     justify-content: center; /* Centraliza os itens verticalmente */
     text-align: center;
+    position: relative;
+    
 }
 
 .header-apresentacao h1 {
-    margin-bottom: 10px; /* Separação entre título e parágrafo */
+    margin-bottom: .625rem; /* Separação entre título e parágrafo */
 }
 
 .header-apresentacao p {
@@ -36,7 +38,11 @@
 }
 
 #header-texto-dinamico {
-    padding: 0 10px; /* Adiciona espaçamento interno */
+    position: absolute; /* Remove do fluxo normal do layout */
+    top: 100%; /* Mantém o texto abaixo do título */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta a posição exata */
+    white-space: nowrap; /* Evita quebras de linha */
     text-align: center;
 }
 
@@ -49,7 +55,7 @@
 }
 
 .header-foto img {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     border-radius: 50%;
     width: 40rem;
     height: 40rem;
