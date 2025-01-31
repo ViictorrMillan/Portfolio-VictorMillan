@@ -31,3 +31,8 @@ body {
 .header-apresentacao {
     color: var(--cor-texto);
 }
+
+#header-texto-dinamico, #header-texto-dinamico::after {
+    font-size: 3rem;
+}
+

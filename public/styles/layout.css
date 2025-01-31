@@ -46,6 +46,21 @@
     text-align: center;
 }
 
+#header-texto-dinamico::after {
+    content: "|";
+    font-size: 2rem;
+    margin-left: 5px;
+    animation: blink 0.7s infinite;
+}
+
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
 .header-foto {
     border: 1px solid blue;
     display: flex;
@@ -64,3 +79,4 @@
 .header-foto figcaption {
     margin-top: 0;
 }
+

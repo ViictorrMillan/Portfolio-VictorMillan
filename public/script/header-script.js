@@ -42,6 +42,8 @@ function typeEffect() {
             setTimeout(typeEffect, typingSpeed);
         }
     }
+
+
 }
 
 document.addEventListener("DOMContentLoaded", typeEffect);
