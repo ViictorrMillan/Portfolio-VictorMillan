@@ -3,58 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Portfólio by Victor Millan  </title>
+    <title>Portfólio by Victor Millan</title>
 
-
-                     <!-- Css -->
-    <link rel="stylesheet" href="./styles/reset.css">                  
-    <link rel="stylesheet" href="./styles/layout.css">
+    <!--? Css -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/projetos.css">
     <link rel="stylesheet" href="./styles/variables.css">
     <link rel="stylesheet" href="./styles/media.css">
 
-                    <!-- Icones -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+     <!--? Adiciona Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-DyZvU9X3jWw5BPHpHCD1t+0CgJFL5eQysZc39uCAsE04T1yFEP5u2FkVEyqB97L6" crossorigin="anonymous">
 
 
 </head>
 <body>
-     <aside>
-            <nav>
-                
-            </nav>
-     </aside>
-    
-    <header>
-            <div class="header-apresentacao"> 
-                <H1> Victor Millan</H1>
-                <p id="header-texto-dinamico"></p>
+    <aside>
+        <nav></nav>
+    </aside>
+
+    <header> <!-- Header Inicio -->
+        <div class="header-apresentacao">
+            <H1>Victor Millan</H1>
+
+            <p id="header-texto-dinamico"></p>
+            
+            <div class="social-icons">
+                <a href="https://github.com/ViictorrMillan" class="social-icon" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/victormillandev/" class="social-icon" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/victormillan_dev?igsh=azRnYXVpNGh6eTE2" class="social-icon" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
             </div>
-        <!-- Figure captions -->
+
+        </div>
         <figure class="header-foto">
             <img src="./images/apresentacao.jfif" alt="Foto de perfil">
-            <figcaption> Frase impactante </figcaption>
+            <figcaption>Frase impactante</figcaption>
         </figure>
-    </header>     
-            <div class="espaco"></div>
+    </header>
+
+    <div class="espaco"></div>
+    
     <main>
-        <section>
-            
+        <section class="projetos">
+            <div class="carrossel">
+                <div class="slides">
+                    <!-- Os slides serão gerados via JavaScript -->
+                </div>
+                <div class="setas">
+                    <button id="prev">⬅</button>
+                    <button id="next">➡</button>
+                </div>
+            </div>
         </section>
 
-        <section>
-           
-        </section>
-
-        <section>
-            
-        </section>
+        <section></section>
+        <section></section>
     </main>
 
-    <footer>
+    <footer></footer>
 
-
-    </footer>
+    <script type="module" src="./script/projetos.js"></script>
+    <script src="./script/header.js"></script>
+    <script src="./script/carousel.js"></script>
 </body>
-
-<script src="./script/header-script.js"></script>
-</html> 
+</html>

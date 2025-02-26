@@ -1,12 +1,4 @@
 /** Espaco entre os elementos */
-
-.espaco {
-    border: rgb(93, 238, 9) 1px solid;
-    padding: 2rem;
-}
-
-
-
  /*? Header  */     
 
  header {
@@ -18,32 +10,31 @@
     align-items: center;
 }
 
+
 .header-apresentacao {
     border: 1px solid green;
-    display: flex;
-    flex-direction: column; /* Alinha os elementos verticalmente */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    justify-content: center; /* Centraliza os itens verticalmente */
-    text-align: center;
     position: relative;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+    max-width: 500px;
     
 }
 
 .header-apresentacao h1 {
-    margin-bottom: .625rem; /* Separação entre título e parágrafo */
+    margin-bottom:  2rem; /* Separação entre título e parágrafo */
 }
 
-.header-apresentacao p {
-    margin-top: 0;
-}
 
-#header-texto-dinamico {
-    position: absolute; /* Remove do fluxo normal do layout */
-    top: 100%; /* Mantém o texto abaixo do título */
-    left: 50%; /* Centraliza horizontalmente */
-    transform: translateX(-50%); /* Ajusta a posição exata */
-    white-space: nowrap; /* Evita quebras de linha */
-    text-align: center;
+#header-texto-dinamico  {
+    margin-bottom:  3rem;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    max-width: 100%; 
+    display: block; 
 }
 
 #header-texto-dinamico::after {
@@ -53,7 +44,14 @@
     animation: blink 0.7s infinite;
 }
 
+.social-icons {
+    display: flex;
+    gap: 25px;
+}
 
+.social-icon {
+    transition: color 0.3s; 
+}
 @keyframes blink {
     0% { opacity: 1; }
     50% { opacity: 0; }
@@ -79,4 +77,5 @@
 .header-foto figcaption {
     margin-top: 0;
 }
+
 

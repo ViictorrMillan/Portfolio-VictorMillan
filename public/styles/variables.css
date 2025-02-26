@@ -6,7 +6,11 @@
     #000000 100%
     );
 
-    --cor-texto: #f2f2f2;
+    --cor-texto: #f3f3f3;
+    --cor-primaria: #333;
+    --cor-secundaria: #C0C0C0;
+    --cor-terciaria : #323232;
+    --cor-hover: #555;
 }
 
 body {
@@ -18,6 +22,7 @@ body {
 
 .header-apresentacao h1 {
     font-size: 6em;
+    color: var(--cor-texto);
 }
 
 .header-foto figcaption {
@@ -31,5 +36,15 @@ body {
 
 #header-texto-dinamico, #header-texto-dinamico::after {
     font-size: 3rem;
+}
+
+.social-icon {
+    font-size: 4.5rem; 
+    color: var(--cor-hover);
+
+}
+
+.social-icon:hover {
+    color: var(--cor-secundaria); /* Cor ao passar o mouse */
 }
 

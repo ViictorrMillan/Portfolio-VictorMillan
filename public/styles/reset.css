@@ -8,3 +8,8 @@
 html {
     font-size: 10px;
 }
+
+.espaco {
+    border: rgb(93, 238, 9) 1px solid;
+    padding: 2rem;
+}
