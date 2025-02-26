@@ -3,7 +3,7 @@
 @media screen and (max-width: 1024px) {
     .header-apresentacao h1 {
         font-size: 4em;
-        max-width: 250px
+     
     }
     
     .header-foto figcaption {
@@ -36,7 +36,7 @@
 
     .header-apresentacao h1 {
         font-size: 4em;
-        max-width: 250px
+
     }
     
     .header-foto figcaption {
