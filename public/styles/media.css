@@ -1,6 +1,33 @@
 /*  Header Media */
+@media screen and (max-width: 1600px) {
+    .header-apresentacao h1 {
+        font-size: 4.5em;
+     
+    }
+    
+    .header-foto figcaption {
+        font-size: 2.5rem;
+        
+    }
+    
+    .header-apresentacao {
+        margin-left: 2.5rem;
+    }
+    
+    #header-texto-dinamico, #header-texto-dinamico::after {
+        font-size: 2.5rem;
+    }
+    
+    .header-foto img {
+        width: 35rem;
+        height: 35rem;
+    }
+    
+}
 
-@media screen and (max-width: 1024px) {
+
+
+@media screen and (max-width: 1440px) {
     .header-apresentacao h1 {
         font-size: 4em;
      
@@ -27,12 +54,14 @@
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     
     header {
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
     }
+
+  
 
     .header-apresentacao h1 {
         font-size: 4em;
