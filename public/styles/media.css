@@ -136,3 +136,26 @@
    
     
 }
+
+@media screen and (max-width: 850px) and (orientation: landscape) {
+    header {
+        flex-direction: row; 
+    }
+
+    .header-apresentacao h1 {
+        font-size: 3em;
+    }
+
+    .header-foto img {
+        width: 20rem; /* Reduz a imagem para não ocupar toda a tela */
+        height: 20rem;
+    }
+
+    .header-foto figcaption {
+        font-size: 2rem;
+    }
+
+    .social-icon {
+        font-size: 3.5rem; /* Diminui o espaço entre os ícones */
+    }
+}
