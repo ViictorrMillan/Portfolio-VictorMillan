@@ -3,6 +3,7 @@
 @media screen and (max-width: 1024px) {
     .header-apresentacao h1 {
         font-size: 4em;
+        max-width: 250px
     }
     
     .header-foto figcaption {
@@ -34,26 +35,27 @@
     }
 
     .header-apresentacao h1 {
-        font-size: 5em;
+        font-size: 4em;
+        max-width: 250px
     }
     
     .header-foto figcaption {
-        font-size: 3rem;
+        font-size: 2rem;
         color: var(--cor-texto);
     }
     
     .header-apresentacao {
         color: var(--cor-texto);
-        margin-left: 2.5rem;
+        margin-left: 2rem;
     }
     
     #header-texto-dinamico, #header-texto-dinamico::after {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
     .header-foto img {
-        width: 35rem;
-        height: 35rem;
+        width: 30rem;
+        height: 30rem;
     }
    
     
@@ -76,6 +78,10 @@
     .header-foto img {
         width: 30rem;
         height: 30rem;
+    }
+
+    .social-icon {
+        font-size: 3.5rem; 
     }
    
 }
